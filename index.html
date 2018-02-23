@@ -127,9 +127,9 @@
             </div>
             <div class="container_small foot_contact">
                 <form action="">
-                    <input type="text" placeholder="Ingresa tu nombre" required>
-                    <input type="email" placeholder="nombre@correo.com" required>
-                    <input type="tel" name="" id="" placeholder="Ingrese su telefono XXXX-XXXX" pattern="^\d{4}-\d{4}$">
+                    <input id='txt_nombre' type="text" placeholder="Ingresa tu nombre" required>
+                    <input id='em_correo' type="email" placeholder="nombre@correo.com" required>
+                    <input id='tel_phone' type="tel" name="" id="" placeholder="Ingrese su telefono XXXX-XXXX" pattern="^\d{4}-\d{4}$" required>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje" required></textarea>
                     <button type="submit">Enviar</button>
                 </form>
@@ -137,5 +137,7 @@
             <div class="clear"></div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
